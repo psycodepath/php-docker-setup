@@ -7,7 +7,6 @@ services:
     working_dir: /app
     volumes:
       - .:/app
-      - ./docker/php-fpm/xdebug.ini:/usr/local/etc/php/conf.d/php-ext-xdebug.ini
 
   nginx:
     build: ./docker/nginx
